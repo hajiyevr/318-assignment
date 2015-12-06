@@ -27,11 +27,12 @@ a {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    position: relative;
 }
 
 .bracket {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 15px solid rgba(100, 100, 100, 0.5);
 }
 .l {
@@ -49,6 +50,17 @@ a {
     border-top: none;
 }
 
+#circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .spacer {
     flex-grow: 1;
 }
@@ -63,6 +75,11 @@ a {
     background-image: url('../assets/camera.png');
     background-repeat: no-repeat;
     background-position: center center;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
 }
 
 img {
