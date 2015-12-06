@@ -23,21 +23,35 @@ a {
     background-image: url('../assets/receipt.png');
     background-repeat: no-repeat;
     background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.spacer {
     flex-grow: 1;
 }
 
 #camera {
     background-color: red;
+    background-image: url('../assets/camera.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
     border-radius: 100000px;
     width: 100px;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 img {
     width: 70px;
 }
 
-#position {
+#text {
+    text-align: center;
     width: 100%;
     background-color: #a8d4ad;
     font-size: 4.5em;
