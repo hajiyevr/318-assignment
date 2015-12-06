@@ -1,0 +1,56 @@
+body {
+  font-family: Open Sans, sans-serif;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#screen {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 1334px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#header {
+  height: 183px;
+  width: 100%;
+  background-image: url("../assets/purchases.jpg");
+  border-bottom: 13px solid black;
+  
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header, .item {
+  width: 100%;
+  height: 97px;
+  background-color: green;
+
+  font-size: 2em;
+  border-top: 3px solid #595959;
+
+  display: flex;
+  align-items: center;
+}
+
+.header:hover, .item:hover {
+  opacity: 0.8;
+  background-color: white;
+}
+
+.header {
+  background-color: #4A4A4A;
+}
+
+.item {
+  background-color: black;
+}

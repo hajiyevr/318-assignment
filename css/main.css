@@ -1,5 +1,10 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Open Sans, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 #screen {
@@ -23,7 +28,7 @@ body {
 #header {
   height: 400px;
   width: 100%;
-  background-image: url("assets/coins.jpg");
+  background-image: url("../assets/coins.jpg");
   border-bottom: 28px solid black;
 
   
@@ -35,7 +40,7 @@ body {
 #purchases {
   height: 183px;
   width: 100%;
-  background-image: url("assets/purchases.jpg");
+  background-image: url("../assets/purchases.jpg");
   border-bottom: 13px solid black;
 
   
@@ -47,12 +52,11 @@ body {
 #scanreceipt {
   width: 412px;
   height: 287px;
-  background-image: url("assets/scanreceipt.jpg");
+  background-image: url("../assets/scanreceipt.jpg");
   border-bottom: 10px solid black;
   border-right: 11px solid black;
 
-  
-  font-size: 5em;
+  font-size: 4em;
   display: flex;
   align-items: flex-end;
 }
@@ -60,11 +64,10 @@ body {
 #enterpurchase {
   width: 327px;
   height: 287px;
-  background-image: url("assets/enterpurchase.jpg");
+  background-image: url("../assets/enterpurchase.jpg");
   border-bottom: 10px solid black;
 
-  
-  font-size: 3.5em;
+  font-size: 4em;
   display: flex;
   align-items: flex-end;
 }
@@ -72,7 +75,7 @@ body {
 #spendinghabits {
   height: 197px;
   width: 100%;
-  background-image: url("assets/spendinghabits.jpg");
+  background-image: url("../assets/spendinghabits.jpg");
   border-bottom: 10px solid black;
 
   font-size: 4em;
@@ -84,7 +87,7 @@ body {
 #spendingmap {
   height: 191px;
   width: 100%;
-  background-image: url("assets/spendingmap.jpg");
+  background-image: url("../assets/spendingmap.jpg");
   border-bottom: 30px solid black;
 
   font-size: 4em;
