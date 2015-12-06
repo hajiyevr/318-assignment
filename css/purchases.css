@@ -20,7 +20,8 @@ a {
 
 #header {
   height: 183px;
-  width: 100%;
+  width: 97%;
+  padding-left: 3%;
   background-image: url("../assets/purchases.jpg");
   border-bottom: 13px solid black;
   
@@ -31,7 +32,8 @@ a {
 }
 
 .header, .item {
-  width: 100%;
+  width: 97%;
+  padding-left: 3%;
   height: 97px;
   background-color: green;
 
@@ -43,14 +45,15 @@ a {
 }
 
 .header:hover, .item:hover {
-  opacity: 0.8;
-  background-color: white;
+  opacity: 0.6;
 }
 
 .header {
+  font-weight: bold;
   background-color: #4A4A4A;
 }
 
 .item {
   background-color: black;
+  font-size: 1.7em;
 }
