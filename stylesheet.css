@@ -1,0 +1,93 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#screen {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 1334px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.pane {
+  color: white;
+}
+
+.pane:hover {
+  opacity: 0.8;
+}
+
+#header {
+  height: 400px;
+  width: 100%;
+  background-image: url("assets/coins.jpg");
+  border-bottom: 28px solid black;
+
+  
+  font-size: 5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+#purchases {
+  height: 183px;
+  width: 100%;
+  background-image: url("assets/purchases.jpg");
+  border-bottom: 13px solid black;
+
+  
+  font-size: 5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+#scanreceipt {
+  width: 412px;
+  height: 287px;
+  background-image: url("assets/scanreceipt.jpg");
+  border-bottom: 10px solid black;
+  border-right: 11px solid black;
+
+  
+  font-size: 5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+#enterpurchase {
+  width: 327px;
+  height: 287px;
+  background-image: url("assets/enterpurchase.jpg");
+  border-bottom: 10px solid black;
+
+  
+  font-size: 3.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+#spendinghabits {
+  height: 197px;
+  width: 100%;
+  background-image: url("assets/spendinghabits.jpg");
+  border-bottom: 10px solid black;
+
+  font-size: 4em;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
+}
+
+#spendingmap {
+  height: 191px;
+  width: 100%;
+  background-image: url("assets/spendingmap.jpg");
+  border-bottom: 30px solid black;
+
+  font-size: 4em;
+  display: flex;
+  align-items: flex-end;
+}
