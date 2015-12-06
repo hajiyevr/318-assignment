@@ -26,6 +26,27 @@ a {
     
     display: flex;
     flex-direction: column;
+    padding: 15px;
+}
+
+.bracket {
+    width: 150px;
+    height: 150px;
+    border: 15px solid rgba(100, 100, 100, 0.5);
+}
+.l {
+    float: left;
+    border-right: none;
+}
+.r {
+    float: right;
+    border-left: none;
+}
+.t {
+    border-bottom: none;
+}
+.b {
+    border-top: none;
 }
 
 .spacer {
@@ -33,17 +54,15 @@ a {
 }
 
 #camera {
+    display: inline-block;
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 100000px;
     background-color: red;
     background-image: url('../assets/camera.png');
     background-repeat: no-repeat;
     background-position: center center;
-
-    border-radius: 100000px;
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
 }
 
 img {
