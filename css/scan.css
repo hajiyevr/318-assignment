@@ -19,8 +19,22 @@ a {
 }
 
 #receipt {
-    //background-image: url('../assets/receipt.png');
+    background-color: white;
+    background-image: url('../assets/receipt.png');
+    background-repeat: no-repeat;
+    background-position: center;
     flex-grow: 1;
+}
+
+#camera {
+    background-color: red;
+    border-radius: 100000px;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 70px;
 }
 
 #position {
