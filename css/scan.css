@@ -1,5 +1,6 @@
 body {
-  font-family: Open Sans, sans-serif;
+    font-family: Open Sans, sans-serif;
+    color: white
 }
 
 a {
@@ -23,8 +24,7 @@ a {
 }
 
 #position {
-   width: 100%;
-   background-color: #a8d4ad;
-   font-size: 5em;
-   font-family: 
+    width: 100%;
+    background-color: #a8d4ad;
+    font-size: 4.5em;
 }
