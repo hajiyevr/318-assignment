@@ -1,0 +1,30 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#screen {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 1334px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#receipt {
+    //background-image: url('../assets/receipt.png');
+    flex-grow: 1;
+}
+
+#position {
+   width: 100%;
+   background-color: #a8d4ad;
+   font-size: 5em;
+   font-family: 
+}
