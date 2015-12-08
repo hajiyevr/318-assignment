@@ -21,7 +21,7 @@ a {
   color: white;
 }
 
-.pane:hover {
+a.pane:hover {
   opacity: 0.8;
 }
 
