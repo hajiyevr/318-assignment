@@ -63,3 +63,13 @@ a {
     top: 685px;
     left: 355px;
 }
+
+#back {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+
+    padding: 10px;
+    font-size: 2em;
+}
