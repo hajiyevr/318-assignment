@@ -27,7 +27,8 @@ a.pane:hover {
 
 #header {
   height: 400px;
-  width: 100%;
+  width: 97%;
+  padding-left: 3%;
   background-image: url("../assets/coins.jpg");
   border-bottom: 28px solid black;
 
