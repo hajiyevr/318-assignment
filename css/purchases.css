@@ -1,6 +1,5 @@
 body {
   font-family: Open Sans, sans-serif;
-  color: white;
 }
 
 a {
@@ -15,7 +14,6 @@ a {
   width: 750px;
   height: 1334px;
   border: 1px solid black;
-  background-color: black;
 }
 
 #header {
@@ -27,18 +25,18 @@ a {
   
   font-size: 3em;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction:column;
+  justify-content: flex-end;
+  color: white;
 }
 
 .header, .item {
   width: 97%;
   padding-left: 3%;
   height: 97px;
-  background-color: green;
 
   font-size: 2em;
-  border-top: 3px solid #595959;
+  /* border-top: 3px solid #595959; */
 
   display: flex;
   align-items: center;
@@ -50,10 +48,11 @@ a {
 
 .header {
   font-weight: bold;
-  background-color: #4A4A4A;
+  background-color: #faefef;
+  color: black;
+  text-transform: uppercase;
 }
 
 .item {
-  background-color: black;
   font-size: 1.7em;
 }
